@@ -69,7 +69,7 @@ body{
 
 .homes{
     height: 100vh;
-    background: url('/image/photo.png') no-repeat;
+    background: url('image/photo.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
