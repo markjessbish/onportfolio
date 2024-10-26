@@ -59,13 +59,26 @@ body{
 
 .home{
     height: 100vh;
-    background: url('/image/jess.png') no-repeat;
+    background: url('image/jess.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 0 10%;
-}  
+} 
+
+.home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
 .home-content{
     max-width: 600px;
 }
